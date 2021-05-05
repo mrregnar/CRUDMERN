@@ -7,7 +7,7 @@ const app = express()
 
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://mranger:mranger123@cluster0.bdbui.mongodb.net/food?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://mranger:<password>@cluster0.bdbui.mongodb.net/food?retryWrites=true&w=majority', {
     useNewUrlParser: true,
 })
 
